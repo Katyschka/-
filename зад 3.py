@@ -1,10 +1,8 @@
-#a=морожное с добавкой
-#b=морожное без добавки
 #f=добавка к мороженому
 class IceCream:
+    
+    
     def __init__(self,f):
-       # self.f=f
-    #def ret(self):
         if isinstance(f,str):
             self.f=f
         else:
